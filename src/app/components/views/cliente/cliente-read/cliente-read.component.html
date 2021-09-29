@@ -1,0 +1,58 @@
+<div class="content">
+    <div class="title">
+        <h1>Clientes</h1>
+    </div>
+
+    <button class="mat-elevation-z8" mat-stroked-button color="primary">NOVO CLIENTE</button>
+
+    <div class="mat-elevation-z8 content-table">
+        <table class="table" mat-table [dataSource] = "clientes">
+
+            <!-- Position Column -->
+            <ng-container matColumnDef="id">
+              <th mat-header-cell *matHeaderCellDef> Id. </th>
+              <td mat-cell *matCellDef="let row"> {{ row.id }} </td>
+            </ng-container>
+          
+            <!-- Name Column -->
+            <ng-container matColumnDef="nome">
+              <th mat-header-cell *matHeaderCellDef> Nome </th>
+              <td mat-cell *matCellDef="let row"> {{row.nome}} </td>
+            </ng-container>
+          
+            <!-- Weight Column -->
+            <ng-container matColumnDef="razaosocial">
+              <th mat-header-cell *matHeaderCellDef> Razão Social </th>
+              <td mat-cell *matCellDef="let row"> {{row.razaosocial}} </td>
+            </ng-container>
+            
+            <ng-container matColumnDef="telefone">
+              <th mat-header-cell *matHeaderCellDef> Telefone </th>
+              <td mat-cell *matCellDef="let row"> {{row.telefone}} </td>
+            </ng-container>
+            
+            <ng-container matColumnDef="contato">
+              <th mat-header-cell *matHeaderCellDef> Contato </th>
+              <td mat-cell *matCellDef="let row"> {{row.contato}} </td>
+            </ng-container>
+          
+            <!-- Symbol Column -->
+            <ng-container matColumnDef="acoes">
+              <th class="mat-header" mat-header-cell *matHeaderCellDef> Ações </th>
+              <td mat-cell *matCellDef="let row"> 
+                <a class="edit" href="#">
+                  <em class="material-icons">edit</em>
+                </a>  
+                <a class="delete" href="#">
+                  <em class="material-icons">delete</em>
+                </a>  
+              </td>
+            </ng-container>
+          
+            <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+          </table>
+    </div>
+  
+
+</div>

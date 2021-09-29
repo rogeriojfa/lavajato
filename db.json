@@ -1,0 +1,51 @@
+{
+    "clientes": [
+      {
+        "id": 1,
+        "nome": "THEMAUTO",
+        "razaosocial": "THEMAUTO",
+        "cnpj": "",
+        "logradouro": "",
+        "numero": "",
+        "complemento": "",
+        "bairro": "",
+        "cidade":"",
+        "uf": "",
+        "cep": "",
+        "telefone": "(32) 98809-7877",
+        "contato": "Rogério"
+      },
+      {
+        "id": 1,
+        "nome": "USADOS",
+        "razaosocial": "USADOS",
+        "cnpj": "",
+        "logradouro": "",
+        "numero": "",
+        "complemento": "",
+        "bairro": "",
+        "cidade":"",
+        "uf": "",
+        "cep": "",
+        "telefone": "(32) 98709-2178",
+        "contato": "Lucia"
+      },
+      {
+        "id": 1,
+        "nome": "ALUGUEL",
+        "razaosocial": "ALUGUEL",
+        "cnpj": "",
+        "logradouro": "",
+        "numero": "",
+        "complemento": "",
+        "bairro": "",
+        "cidade":"",
+        "uf": "",
+        "cep": "",
+        "telefone": "(32) 99116-5949",
+        "contato": "Gabriel"
+      }
+
+    ]
+    
+  }
