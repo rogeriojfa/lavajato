@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Aggregates\Auth\Dtos\" />
+    <Folder Include="Aggregates\Auth\Interfaces\Repositories\" />
+    <Folder Include="Aggregates\Auth\Interfaces\Services\" />
+    <Folder Include="Aggregates\Auth\Services\" />
+    <Folder Include="Aggregates\CarWash\Dtos\" />
+    <Folder Include="Aggregates\CarWash\Interfaces\Services\" />
+    <Folder Include="Aggregates\CarWash\Interfaces\Repositories\" />
+    <Folder Include="Aggregates\CarWash\Services\" />
+    <Folder Include="AutoMappers\" />
+    <Folder Include="SharedKernel\" />
+  </ItemGroup>
+
+</Project>
